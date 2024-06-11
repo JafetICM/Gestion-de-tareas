@@ -1,0 +1,28 @@
+body {
+    background-color: #868686;
+}
+
+.card {
+    margin-top: 60px;
+}
+
+#task-list {
+    margin-top: 20px;
+}
+
+.list-group-item.done {
+    text-decoration: line-through;
+
+}
+
+.list-group-item.pending {
+    color: rgb(255, 230, 0);
+}
+
+.list-group-item.overdue {
+    color: red;
+}
+
+.list-group-item.resolved {
+    color: rgb(3, 77, 3);
+}
